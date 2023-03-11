@@ -44,7 +44,7 @@ const Login = () => {
                     Submit
                 </Button>
             </Form>
-            <p>New to Genious care? <Link to='/register' className='text-danger pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
+            <p>New to Genious care? <Link to='/register' className='text-danger pe-auto text-decoration' onClick={navigateRegister}>Please Register</Link></p>
         </div>
     );
 };
